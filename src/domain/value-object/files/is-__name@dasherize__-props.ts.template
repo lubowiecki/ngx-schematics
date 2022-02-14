@@ -1,0 +1,6 @@
+import { isObject } from '@lubowiecki/ts-utility';
+
+import { <%= classify(name) %>Props } from './<%= dasherize(name) %>-props';
+
+export const is<%= classify(name) %>Props = (obj: unknown): obj is <%= classify(name) %>Props =>
+	isObject(obj);
