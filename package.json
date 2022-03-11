@@ -15,7 +15,7 @@
 	"schematics": "./src/collection.json",
 	"dependencies": {
 		"@angular-devkit/core": "^13.2.3",
-		"@angular-devkit/schematics": "^13.2.3",
+		"@angular-devkit/schematics": "^13.2.4",
 		"@lubowiecki/ts-utility": "^1.0.0",
 		"@schematics/angular": "^13.2.3",
 		"rxjs": "^7.5.4",
